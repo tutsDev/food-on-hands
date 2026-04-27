@@ -30,6 +30,9 @@ Promover uma aplicação amigável, prática, moderna e intuitiva para criação
 * Sistema de pedido.
 * Dashboard Administrativo para restaurantes.
 
+## 📦​ Modelagem de Classes
+![Modelagem de Classes - Food On Hands](Modelagem de Classes - Food On Hands.svg)
+
 ## 👤 Personas
 
 | Nome | Função / Idade | Perfil | Objetivos no Sistema | Dores | Interação com o MVP |
