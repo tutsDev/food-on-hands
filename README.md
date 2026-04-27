@@ -31,7 +31,7 @@ Promover uma aplicação amigável, prática, moderna e intuitiva para criação
 * Dashboard Administrativo para restaurantes.
 
 ## 📦​ Modelagem de Classes
-<img width="731" height="479" alt="Modelagem de Classes - Food On Hands drawio" src="https://github.com/user-attachments/assets/5c6b9df5-5e2c-4847-a681-16b7686b574a" />
+<img width="731" height="479" alt="Modelagem de Classes - Food On Hands drawio" src="https://github.com/user-attachments/assets/7d651bea-abb5-412a-8454-6ba1775133c6" />
 
 ## 👤 Personas
 
