@@ -39,18 +39,18 @@ public class DataInitializer implements CommandLineRunner {
 
         // --- USUÁRIO 1: Dois Restaurantes, cada um com um cardápio ---
         User user1 = new User();
-        user1.setNome("Arthur Cliente 1");
-        user1.setEmail("arthur1@email.com");
+        user1.setNome("Guilherme Soares Lima");
+        user1.setEmail("guilherme@email.com");
         user1.setPassword(passwordEncoder.encode("senha123"));
         user1.setRole(Role.USER);
 
         // Restaurante A do User 1
-        Restaurante restA = criarRestaurante("Burger do Arthur A", user1, "Rua das Flores, 100");
+        Restaurante restA = criarRestaurante("Ratão Burger - Itapevi", user1, "Rua das Flores, 100");
         Cardapio cardapioA = criarCardapio("Menu Principal - Loja A", restA, Arrays.asList(burger, bebida, acompanhamento));
         restA.setCardapios(List.of(cardapioA));
 
         // Restaurante B do User 1
-        Restaurante restB = criarRestaurante("Burger do Arthur B", user1, "Av. Central, 500");
+        Restaurante restB = criarRestaurante("Ratão Burger - Osasco", user1, "Av. Central, 500");
         Cardapio cardapioB = criarCardapio("Menu Verão - Loja B", restB, Arrays.asList(burger, bebida, acompanhamento));
         restB.setCardapios(List.of(cardapioB));
 
@@ -59,12 +59,12 @@ public class DataInitializer implements CommandLineRunner {
 
         // --- USUÁRIO 2: Um Restaurante com dois cardápios ---
         User user2 = new User();
-        user2.setNome("Arthur Cliente 2");
-        user2.setEmail("arthur2@email.com");
+        user2.setNome("Vinicius Alves Mateus");
+        user2.setEmail("vinicius@email.com");
         user2.setPassword(passwordEncoder.encode("senha456"));
         user2.setRole(Role.USER);
 
-        Restaurante restC = criarRestaurante("Hamburgueria Gourmet", user2, "Rua do Porto, 22");
+        Restaurante restC = criarRestaurante("BurguerZADA", user2, "Rua do Porto, 22");
 
         Cardapio cardapioC1 = criarCardapio("Cardápio Diurno", restC, Arrays.asList(burger, bebida, acompanhamento));
         Cardapio cardapioC2 = criarCardapio("Cardápio Noturno", restC, Arrays.asList(burger, bebida, acompanhamento));
