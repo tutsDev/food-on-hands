@@ -8,6 +8,9 @@ Aplicação Mobile para criação e visualização de cardápios modernos para H
 * Tarcisio Neris de Souza
 * Vinicius Alves Mateus
 
+## 📱 UI/UX Figma
+https://www.figma.com/design/mvq5qHEFDcn2eetCgMoPeM/Food-On-Hands?node-id=486-193&t=hhjk5vAX4SffTeWy-1
+
 ## 📝 Resumo Executivo
 O **Food On Hands** é uma solução mobile desenvolvida para facilitar a criação e visualização de cardápios modernos, focada especificamente no nicho de hamburguerias.
 
